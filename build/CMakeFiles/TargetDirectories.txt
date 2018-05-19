@@ -1,0 +1,10 @@
+/home/dbb/Documents/Projs/GameEngineFromScratch/build/CMakeFiles/edit_cache.dir
+/home/dbb/Documents/Projs/GameEngineFromScratch/build/CMakeFiles/rebuild_cache.dir
+/home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/CMakeFiles/edit_cache.dir
+/home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/CMakeFiles/rebuild_cache.dir
+/home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common/CMakeFiles/edit_cache.dir
+/home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common/CMakeFiles/rebuild_cache.dir
+/home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common/CMakeFiles/Common.dir
+/home/dbb/Documents/Projs/GameEngineFromScratch/build/Empty/CMakeFiles/edit_cache.dir
+/home/dbb/Documents/Projs/GameEngineFromScratch/build/Empty/CMakeFiles/rebuild_cache.dir
+/home/dbb/Documents/Projs/GameEngineFromScratch/build/Empty/CMakeFiles/Empty.dir

@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BaseApplication	BaseApplication.hpp	/^	class BaseApplication : implements IApplication$/;"	c	namespace:My	inherits:implementsIApplication
+Finalize	BaseApplication.cpp	/^void My::BaseApplication::Finalize()$/;"	f	class:My::BaseApplication	signature:()
+Finalize	BaseApplication.hpp	/^			virtual void Finalize();$/;"	p	class:My::BaseApplication	access:public	signature:()
+Initialize	BaseApplication.cpp	/^int My::BaseApplication::Initialize()$/;"	f	class:My::BaseApplication	signature:()
+Initialize	BaseApplication.hpp	/^			virtual int Initialize();$/;"	p	class:My::BaseApplication	access:public	signature:()
+IsQuit	BaseApplication.cpp	/^bool My::BaseApplication::IsQuit()$/;"	f	class:My::BaseApplication	signature:()
+IsQuit	BaseApplication.hpp	/^			virtual bool IsQuit();$/;"	p	class:My::BaseApplication	access:public	signature:()
+My	BaseApplication.hpp	/^namespace My$/;"	n
+My	main.cpp	/^namespace My$/;"	n	file:
+My::BaseApplication	BaseApplication.hpp	/^	class BaseApplication : implements IApplication$/;"	c	namespace:My	inherits:implementsIApplication
+My::BaseApplication::Finalize	BaseApplication.cpp	/^void My::BaseApplication::Finalize()$/;"	f	class:My::BaseApplication	signature:()
+My::BaseApplication::Finalize	BaseApplication.hpp	/^			virtual void Finalize();$/;"	p	class:My::BaseApplication	access:public	signature:()
+My::BaseApplication::Initialize	BaseApplication.cpp	/^int My::BaseApplication::Initialize()$/;"	f	class:My::BaseApplication	signature:()
+My::BaseApplication::Initialize	BaseApplication.hpp	/^			virtual int Initialize();$/;"	p	class:My::BaseApplication	access:public	signature:()
+My::BaseApplication::IsQuit	BaseApplication.cpp	/^bool My::BaseApplication::IsQuit()$/;"	f	class:My::BaseApplication	signature:()
+My::BaseApplication::IsQuit	BaseApplication.hpp	/^			virtual bool IsQuit();$/;"	p	class:My::BaseApplication	access:public	signature:()
+My::BaseApplication::Tick	BaseApplication.cpp	/^void My::BaseApplication::Tick()$/;"	f	class:My::BaseApplication	signature:()
+My::BaseApplication::Tick	BaseApplication.hpp	/^			virtual void Tick();$/;"	p	class:My::BaseApplication	access:public	signature:()
+My::BaseApplication::m_bQuit	BaseApplication.hpp	/^			bool m_bQuit;$/;"	m	class:My::BaseApplication	access:protected
+Tick	BaseApplication.cpp	/^void My::BaseApplication::Tick()$/;"	f	class:My::BaseApplication	signature:()
+Tick	BaseApplication.hpp	/^			virtual void Tick();$/;"	p	class:My::BaseApplication	access:public	signature:()
+__BASEAPPLICATION_H__	BaseApplication.hpp	2;"	d
+m_bQuit	BaseApplication.hpp	/^			bool m_bQuit;$/;"	m	class:My::BaseApplication	access:protected
+main	main.cpp	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
