@@ -26,6 +26,14 @@ BaseApplication.hpp
 IApplication.hpp
 /home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/IApplication.hpp
 
+/home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/GraphicsManager.cpp
+GraphicsManager.hpp
+/home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/GraphicsManager.hpp
+
+/home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/GraphicsManager.hpp
+IRuntimeModule.hpp
+/home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/IRuntimeModule.hpp
+
 /home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/main.cpp
 stdio.h
 -

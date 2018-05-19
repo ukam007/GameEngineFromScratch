@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/BaseApplication.cpp" "/home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o"
+  "/home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/GraphicsManager.cpp" "/home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o"
   "/home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/main.cpp" "/home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common/CMakeFiles/Common.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

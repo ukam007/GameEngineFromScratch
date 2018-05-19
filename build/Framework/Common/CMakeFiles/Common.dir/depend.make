@@ -7,6 +7,11 @@ Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o: ../Framework/Inter
 Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o: ../Framework/Common/BaseApplication.cpp
 Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o: ../Framework/Common/BaseApplication.hpp
 
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o: ../Framework/Interface/IRuntimeModule.hpp
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o: ../Framework/Interface/Interface.hpp
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o: ../Framework/Common/GraphicsManager.cpp
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o: ../Framework/Common/GraphicsManager.hpp
+
 Framework/Common/CMakeFiles/Common.dir/main.cpp.o: ../Framework/Interface/IApplication.hpp
 Framework/Common/CMakeFiles/Common.dir/main.cpp.o: ../Framework/Interface/IRuntimeModule.hpp
 Framework/Common/CMakeFiles/Common.dir/main.cpp.o: ../Framework/Interface/Interface.hpp

@@ -81,9 +81,33 @@ Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o.provides: Framework
 Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o.provides.build: Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o
 
 
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o: Framework/Common/CMakeFiles/Common.dir/flags.make
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o: ../Framework/Common/GraphicsManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbb/Documents/Projs/GameEngineFromScratch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o"
+	cd /home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Common.dir/GraphicsManager.cpp.o -c /home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/GraphicsManager.cpp
+
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Common.dir/GraphicsManager.cpp.i"
+	cd /home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/GraphicsManager.cpp > CMakeFiles/Common.dir/GraphicsManager.cpp.i
+
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Common.dir/GraphicsManager.cpp.s"
+	cd /home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/GraphicsManager.cpp -o CMakeFiles/Common.dir/GraphicsManager.cpp.s
+
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o.requires:
+
+.PHONY : Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o.requires
+
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o.provides: Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o.requires
+	$(MAKE) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o.provides.build
+.PHONY : Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o.provides
+
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o.provides.build: Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o
+
+
 Framework/Common/CMakeFiles/Common.dir/main.cpp.o: Framework/Common/CMakeFiles/Common.dir/flags.make
 Framework/Common/CMakeFiles/Common.dir/main.cpp.o: ../Framework/Common/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbb/Documents/Projs/GameEngineFromScratch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Framework/Common/CMakeFiles/Common.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dbb/Documents/Projs/GameEngineFromScratch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Framework/Common/CMakeFiles/Common.dir/main.cpp.o"
 	cd /home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Common.dir/main.cpp.o -c /home/dbb/Documents/Projs/GameEngineFromScratch/Framework/Common/main.cpp
 
 Framework/Common/CMakeFiles/Common.dir/main.cpp.i: cmake_force
@@ -108,16 +132,18 @@ Framework/Common/CMakeFiles/Common.dir/main.cpp.o.provides.build: Framework/Comm
 # Object files for target Common
 Common_OBJECTS = \
 "CMakeFiles/Common.dir/BaseApplication.cpp.o" \
+"CMakeFiles/Common.dir/GraphicsManager.cpp.o" \
 "CMakeFiles/Common.dir/main.cpp.o"
 
 # External object files for target Common
 Common_EXTERNAL_OBJECTS =
 
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o
+Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/main.cpp.o
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/build.make
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dbb/Documents/Projs/GameEngineFromScratch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libCommon.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dbb/Documents/Projs/GameEngineFromScratch/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCommon.a"
 	cd /home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common && $(CMAKE_COMMAND) -P CMakeFiles/Common.dir/cmake_clean_target.cmake
 	cd /home/dbb/Documents/Projs/GameEngineFromScratch/build/Framework/Common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Common.dir/link.txt --verbose=$(VERBOSE)
 
@@ -127,6 +153,7 @@ Framework/Common/CMakeFiles/Common.dir/build: Framework/Common/libCommon.a
 .PHONY : Framework/Common/CMakeFiles/Common.dir/build
 
 Framework/Common/CMakeFiles/Common.dir/requires: Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.o.requires
+Framework/Common/CMakeFiles/Common.dir/requires: Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.o.requires
 Framework/Common/CMakeFiles/Common.dir/requires: Framework/Common/CMakeFiles/Common.dir/main.cpp.o.requires
 
 .PHONY : Framework/Common/CMakeFiles/Common.dir/requires
